@@ -8,17 +8,11 @@
 
 ## 🌟 Features
 
-| **🔧 Data Preprocessing**              | **📊 EDA & Visualization**           |
-|---------------------------------------|--------------------------------------|
-| Handle missing values & outliers      | Price vs. Sales scatter plots       |
-| Clip extreme conversion rates         | Predicted vs. Actual sales analysis |
-| Temporal sorting (date-based data)    | Interactive correlation matrices    |
-
-| **🤖 RL Environment**                  | **📈 Model & Training**              |
-|---------------------------------------|--------------------------------------|
-| Custom Gym environment                | PPO algorithm implementation        |
-| 11 discrete price adjustment actions | 10,000 training timesteps           |
-| Dynamic reward calculation            | Real-time price-sales interpolation |
+- **Data Preprocessing**: Cleans and prepares sales data by handling missing values, outliers, and invalid entries.
+- **Exploratory Data Analysis**: Generates visualizations to explore relationships between product price, sales, and conversion rates.
+- **Custom Gym Environment**: Simulates a market environment where the agent adjusts prices and observes sales outcomes.
+- **PPO Model Training**: Uses the `stable-baselines3` library to train an RL agent for price optimization.
+- **Visualization Tools**: Plots training results, including price, sales, and reward trends over time.
 
 ---
 
